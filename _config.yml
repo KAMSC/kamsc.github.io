@@ -1,0 +1,36 @@
+# site settings
+title: H0M3
+subtitle: by KAMSC
+email: kamsc.h0m3@icloud.com
+description: A responsive site for a general purpose site <br /> by KAMSC Students.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kamsc.github.io/" # the base hostname & protocol for your site
+author: KAMSC Students
+street_address: 600 West Vine Street Suite 400
+city: Kalamazoo
+state: MI
+zip_code: 49008
+country: United States of America
+phone: (269) 337-0004
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/KAMSC
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/_KAMSC_
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
