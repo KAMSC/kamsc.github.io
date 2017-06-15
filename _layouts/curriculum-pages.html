@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Main -->
+    <div id="main">
+
+    <!-- One -->
+    <section id="one">
+    	<div class="inner">
+    		<header class="major">
+    			<h2>{% title %}</h2>
+    		</header>
+    		<p>
+          {{content}}
+        </p>
+    	</div>
+    </section>
+
+    </div> {% include footer.html %}
+
+</body>
+
+</html>

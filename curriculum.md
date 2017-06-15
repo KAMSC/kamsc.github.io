@@ -32,7 +32,7 @@ nav-menu: true
 				</header>
 				<p>	</p>
 				<ul class="actions">
-					<li><a href="{{site.github.url}}.html" class="button">Learn more</a></li>
+					<li><a href="mathematics.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
