@@ -2,7 +2,7 @@
 title: H0M3
 subtitle: by KAMSC
 email: kamsc.h0m3@icloud.com
-description: A responsive site for a general purpose site <br /> by KAMSC Students.
+description: A responsive general purpose site <br /> by KAMSC Students.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kamsc.github.io/" # the base hostname & protocol for your site
 author: KAMSC Students
