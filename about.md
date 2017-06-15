@@ -33,7 +33,7 @@ nav-menu: true
 				</header>
 				<p>	All students, within the first three years of the core curriculum, participate in an intensive and guided-research-based program, developing the skills necessary to conduct scientific research. Some students become involved with long-term research projects with scientists in the community. The capstone of the KAMSC student experience is involvement in a mentorship. Seniors participate for one semester in a mentorship with a community professional at their workplace.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="{{site.github.url}}curriculum.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
