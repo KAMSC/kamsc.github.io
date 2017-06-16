@@ -18,7 +18,8 @@ module Jekyll
       super
     end
 
-    def add_item(page)
+    def add_item(page, context)
+      url = context.registers[:site].config['url']
       if page.index?
         title = page.parent
       else
@@ -44,7 +45,7 @@ module Jekyll
       else
         puts "File not found: #{source_file}"
       end
-      s = "<li><a href=\"/#{page.parent}#{page.url}\">#{title}</a></li>"
+      s = "<li><a href=\"/#{page.url}\">#{title}</a></li>"
     end
 
     def render(context)
@@ -55,7 +56,7 @@ module Jekyll
       list = Hash.new {|h,k| h[k] = [] }
       site_pages.each do |page|
         next if page.index?
-        list[page.parent] << self.add_item(page)
+        list[page.parent] << self.add_item(page, context)
       end
       list = list.sort
       list.each { |header, subs|
