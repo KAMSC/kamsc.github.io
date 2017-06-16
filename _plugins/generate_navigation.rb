@@ -59,7 +59,9 @@ module Jekyll
       end
       list = list.sort
       list.each { |header, subs|
-       html += "<li class=\"nav-header\">#{header}</li>"
+            if header != ""
+                html += "<li><a href=\"#\" class=\"icon fa-angle-down\">#{header}</a>"
+            end
        subs.each { |sub| html += sub }
       }
       html += '</ul>'

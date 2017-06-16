@@ -8,13 +8,11 @@
 
     {% include header.html %}
 
+    {% generate_navigation %}
     {{ content }}
 
     {% include cta.html %}
     {% include footer.html %}
-    <div id="navnav">
-        {% generate_navigation %}
-    </div>
 
 </body>
 
