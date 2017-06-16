@@ -4,6 +4,7 @@ layout: landing
 description: 'Learn more about the Kalamazoo Area Mathematics and Science Center'
 image: assets/images/pic07.jpg
 nav-menu: true
+in-nav: true
 ---
 
 <!-- Main -->
