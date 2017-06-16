@@ -8,6 +8,8 @@
       subhref: "about"
     - subtitle: "Why Should I apply?"
       subhref: "why-apply"
+    - subtitle: "Mission and Philosophy"
+      subhref: "mission-and-philosophy"
 
 - title: "Academics"
   href: "academics"
@@ -22,7 +24,6 @@
 
 - title: "Sizzlin' Summer"
   href: "sizzlin-summer"
-
 
 - title: "Contact Us"
   href: "contact-us"
