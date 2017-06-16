@@ -1,24 +1,3 @@
 <nav id="nav">
-	<ul class="nav navbar-nav navbar-right">
-
-    {% for dale in site.data.nav %}
-
-    <!-- check to see if the data file has a submenu, and if so display it -->
-    {% if dale.subcategories != null %}
-    <li class="dropdown">
-    <a href="{{ site.url }}{{ dale.url }}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">{{ dale.title }}<i class="fa fa-angle-down"></i></a>
-    <ul class="dropdown-menu">
-    {% for subcategory in dale.subcategories %}
-    <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
-    {% endfor %}
-    </ul>
-    {% else %}
-
-    <!— display the top level navigation for items that don’t have a submenu -->
-    <li>
-    <a href="{{ site.url }}{{ dale.href }}">{{ dale.title }}</a>
-    {% endif %}
-    </li>
-    {% endfor %}
-    </ul>
+	{% generate_navigation %}
 </nav>
