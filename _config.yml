@@ -27,8 +27,17 @@ font-awesome-icon-logo:
 # Social settings
 github_username: KAMSC
 twitter_username: _KAMSC_
-facebook_URL:
+google_username: KAMSC
 instagram_username:
+facebook_username: KAMSC
+dribble_username:
+
+github_url: https://github.com/KAMSC
+twitter_url: https://twitter.com/_KAMSC_
+facebook_url: https://www.facebook.com/pages/Kalamazoo-Area-Mathematics-and-Science-Center/107893655910450
+instagram_url:
+dribble_url:
+google_url: https://plus.google.com/117398504371614326665
 
 # Build settings
 markdown: kramdown
