@@ -3,6 +3,7 @@ title: Curriculum
 layout: page
 description: Curriculum at KAMSC
 nav-menu: true
+in-nav: true
 ---
 
 <!-- Main -->
