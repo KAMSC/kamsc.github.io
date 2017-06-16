@@ -3,7 +3,7 @@ title: Mission and Philosophy
 layout: page
 description:
 nav-menu: true
-in-nav: false
+in-nav: true
 ---
 
 <!-- Main -->
