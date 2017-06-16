@@ -56,17 +56,19 @@ in-nav: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
+		<a href="in-community.html" class="image">
 			<img src="assets/images/pic10.jpg" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Mission</h3>
+					<h3>In the Community</h3>
 				</header>
-				<p>	KAMSC promotes standards based science and mathematics curriculum through its involvement with Building a Presence in Science and the Michigan Mathematics Leadership Academy and Summer Science Institute for elementary and middle school teachers. KAMSC serves as a catalyst for community involvement in mathematics and science education. Through partnerships and collaborative efforts with higher education, business and industry, community organizations, and local school districts, mathematics and science education for all K-12 students is improved.</p>
+				<p>KAMSC is an active member of the Michigan Mathematics & Science Centers Network and a founding member of the National Consortium for Specialized Schools of Mathematics, Science and Technology.
+
+					The School District of the City of Kalamazoo serves as KAMSC's administrative and fiscal agent. The KAMSC Executive Council, made up of the nine public school superintendents in K/RESA, sets fiscal and administrative policies.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="in-community.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -77,13 +79,11 @@ in-nav: true
 <section id="three">
 	<div class="inner">
 		<header class="major">
-			<h2>In the Community</h2>
+			<h2>Mission and Philosophy</h2>
 		</header>
-		<p>	KAMSC is an active member of the Michigan Mathematics & Science Centers Network and a founding member of the National Consortium for Specialized Schools of Mathematics, Science and Technology.
-
-			The School District of the City of Kalamazoo serves as KAMSC's administrative and fiscal agent. The KAMSC Executive Council, made up of the nine public school superintendents in K/RESA, sets fiscal and administrative policies.</p>
+		<p>	KAMSC promotes standards based science and mathematics curriculum through its involvement with Building a Presence in Science and the Michigan Mathematics Leadership Academy and Summer Science Institute for elementary and middle school teachers. KAMSC serves as a catalyst for community involvement in mathematics and science education. Through partnerships and collaborative efforts with higher education, business and industry, community organizations, and local school districts, mathematics and science education for all K-12 students is improved.</p>
 		<ul class="actions">
-			<li><a href="generic.html" class="button next">Learn more</a></li>
+			<li><a href="mission-philosophy.html" class="button next">Learn more</a></li>
 		</ul>
 	</div>
 </section>
