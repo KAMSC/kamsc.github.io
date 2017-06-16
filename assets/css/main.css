@@ -3030,11 +3030,11 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		/*background-image: url("images/overlay.png"), url("../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
-		color: #fff;
+		color: #fff;*/
 		padding: 12em 0 20em 0;
 		text-align: center;
 	}
@@ -3758,4 +3758,24 @@
 				padding: 2.5em 1em 3em 1em;
 			}
 
+	}
+	.bgvid
+	{
+		position:absolute;
+  		left:0;
+  		top:0;
+  		width:100vw;
+		z-index: 1;
+		filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
+  		-webkit-filter:blur(10px);
+  		-ms-filter: blur(10px);
+  		-o-filter: blur(10px);
+  		filter:blur(10px);
+	}
+	.banner-content
+	{
+		position: absolute;
+		overflow: hidden;
+		z-index: 2;
+		text-align: center;
 	}

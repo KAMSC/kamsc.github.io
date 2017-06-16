@@ -9,12 +9,17 @@
 {% if page.layout == "default" %}
 <!-- Banner -->
 <section id="banner">
-	<h2>This is KAMSC</h2>
-	<p>{{ site.description | upcase}}</p>
-	<ul class="actions">
-		<li><a href="#" class="button special">Sign Up</a></li>
-		<li><a href="#" class="button">Learn More</a></li>
-	</ul>
+	<video class="bgvid" autoplay="autoplay" muted="muted" preload="auto" loop>
+		<source src="/assets/videos/bg.mp4" type="video/mp4" />
+	</video>
+	<div class="banner-content">
+		<h2>This is KAMSC</h2>
+		<p>{{ site.description | upcase}}</p>
+		<ul class="actions">
+			<li><a href="#" class="button special">Sign Up</a></li>
+			<li><a href="#" class="button">Learn More</a></li>
+		</ul>
+	</div>
 </section>
 {% else %}
 <!-- Main -->
