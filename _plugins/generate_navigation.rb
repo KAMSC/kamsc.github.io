@@ -51,7 +51,7 @@ module Jekyll
       site = context.registers[:site]
       @source = site.source
       site_pages = context.environments.first['site']['pages']
-      html = '<ul class="nav nav-list">'
+      html = '<ul>'
       list = Hash.new {|h,k| h[k] = [] }
       site_pages.each do |page|
         next if page.index?
@@ -61,8 +61,16 @@ module Jekyll
       list.each { |header, subs|
             if header != ""
                 html += "<li><a href=\"#\" class=\"icon fa-angle-down\">#{header}</a>"
+                html += "<ul>"
+                subs.each { |sub|
+                    html += sub
+                }
+                html += "</ul>"
+            else
+                subs.each { |sub|
+                    html += sub
+                }
             end
-       subs.each { |sub| html += sub }
       }
       html += '</ul>'
 
