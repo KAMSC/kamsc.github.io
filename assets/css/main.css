@@ -3767,10 +3767,11 @@
   		width:100vw;
 		z-index: 1;
 		filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
-  		-webkit-filter:blur(10px);
-  		-ms-filter: blur(10px);
-  		-o-filter: blur(10px);
-  		filter:blur(10px);
+  		-webkit-filter: brightness(50%) blur(10px);
+  		-ms-filter: brightness(50%) blur(10px);
+  		-o-filter: brightness(50%) blur(10px);
+  		filter: brightness(50%) blur(10px);
+
 	}
 	.banner-content
 	{
@@ -3778,4 +3779,6 @@
 		overflow: hidden;
 		z-index: 2;
 		text-align: center;
+		margin: auto;
+		width: 100vw;
 	}
