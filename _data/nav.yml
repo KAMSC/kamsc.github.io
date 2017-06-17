@@ -8,11 +8,13 @@
       subhref: "about"
     - subtitle: "Why Should I apply?"
       subhref: "why-apply"
+    - subtitle: "Mission and Philosophy"
+      subhref: "mission-and-philosophy"
 
 - title: "Academics"
   href: "academics"
 
-- title: "staff"
+- title: "Staff"
   href: "staff"
   subcategories:
     - subtitle: "Current Staff"
@@ -20,9 +22,18 @@
     - subtitle: "Former Staff"
       subhref: "former-staff"
 
+- title: "Resources"
+  href: "resources"
+  subcategories:
+    - subtitle: "Blog"
+      subhref: "blog"
+    - subtitle: "Student"
+      subhref: "student"
+    - subtitle: "Parent"
+      subhref: "Parent"
+
 - title: "Sizzlin' Summer"
   href: "sizzlin-summer"
-
 
 - title: "Contact Us"
   href: "contact-us"

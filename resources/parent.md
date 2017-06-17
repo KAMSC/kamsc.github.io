@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Sizzlin' Summer
+title: Parent Resources
 ---
 also a test.....

@@ -8,13 +8,23 @@
 
     {% include header.html %}
 
-    {% if page.featured-image %}
-    <span class="image featured">
-      <img src="{{ page.featured-image }}" alt="">
-    </span>
-    {% endif %}
+    <!-- Main -->
+        <div class="row">
+          <div class="12u">
+            {% if page.featured-image %}
+            <span class="image featured">
+              <img src="{{ page.featured-image }}" alt="">
+            </span>
+            {% endif %}
+            <!-- Text -->
+              <section class="box">
+                {{ content }}
+              </section>
 
-    {{ content }}
+          </div>
+        </div>
+        
+      </section>
 
     {% include footer.html %}
 
