@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/kamsc/about.html</loc>
+<loc>http://localhost:4000/KAMSC/about.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/academics.html</loc>
@@ -13,16 +13,16 @@
 <loc>http://localhost:4000/contact-us.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/staff/current-staff.html</loc>
+<loc>http://localhost:4000/Staff/current-staff.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/staff/former-staff.html</loc>
+<loc>http://localhost:4000/Staff/former-staff.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/kamsc/mission-and-philosophy.html</loc>
+<loc>http://localhost:4000/KAMSC/mission-and-philosophy.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/resources/parent.html</loc>
@@ -34,18 +34,18 @@
 <loc>http://localhost:4000/resources/student.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/kamsc/why-apply.html</loc>
+<loc>http://localhost:4000/KAMSC/why-apply.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/contact.html</loc>
-<lastmod>2017-06-17T11:37:39-04:00</lastmod>
+<lastmod>2017-06-16T22:42:27-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/elements.html</loc>
-<lastmod>2017-06-17T11:37:39-04:00</lastmod>
+<lastmod>2017-06-16T22:42:27-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/generic.html</loc>
-<lastmod>2017-06-17T11:37:39-04:00</lastmod>
+<lastmod>2017-06-16T22:42:27-04:00</lastmod>
 </url>
 </urlset>

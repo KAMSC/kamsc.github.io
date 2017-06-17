@@ -1,0 +1,149 @@
+[
+  
+  ,
+  
+   {
+     
+        "title"    : "About",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/KAMSC/about.html",
+        "date"     : "",
+        "content"  : "<p>The Kalamazoo Area Mathematics and Science Center (KAMSC) provides a challenging, accelerated education in mathematics, science and technology to selected students in grades 9 through 12. Students in Kalamazoo County can apply to the program in the eighth grade and, if accepted, spend a half day at KAMSC in intensive mathematics, sciences and/or computer courses.</p>\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Academics",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/academics.html",
+        "date"     : "",
+        "content"  : "<p>All students, within the first three years of the core curriculum, participate in an intensive and guided-research-based program, developing the skills necessary to conduct scientific research. Some students become involved with long-term research projects with scientists in the community. The capstone of the KAMSC student experience is involvement in a mentorship. Seniors participate for one semester in a mentorship with a community professional at their workplace.</p>\n\n<section class=\"box special features\">\n\t<div class=\"features-row\">\n\t\t<section>\n\t\t\t<span class=\"icon major fa-bolt accent2\"></span>\n\t\t\t<h3>Mathematics</h3>\n\t\t\t<p>Math at KAMSC........</p>\n\t\t</section>\n\t\t<section>\n\t\t\t<span class=\"icon major fa-area-chart accent3\"></span>\n\t\t\t<h3>Computer Science</h3>\n\t\t\t<p>CS at KAMSC.........</p>\n\t\t</section>\n\t</div>\n\t<div class=\"features-row\">\n\t\t<section>\n\t\t\t<span class=\"icon major fa-cloud accent4\"></span>\n\t\t\t<h3>Physical and Biological Sciences</h3>\n\t\t\t<p>Physics, Biology, Chemistry, etc. at KAMSC........</p>\n\t\t</section>\n\t\t<section>\n\t\t\t<span class=\"icon major fa-lock accent5\"></span>\n\t\t\t<h3>Research</h3>\n\t\t\t<p>Reseach at KAMSC........</p>\n\t\t</section>\n\t</div>\n</section>\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Student Blog",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/resources/blog.html",
+        "date"     : "",
+        "content"  : "<p>All KAMSC students are welcome to contribute to the blog:</p>\n\n<p><a href=\"https://kamsc.github.io/blog/\">KAMSC Student Blog</a></p>\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Contact Us",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/contact-us.html",
+        "date"     : "",
+        "content"  : "<!-- Form -->\n<section class=\"box\">\n    <h3>Contact Us by Form</h3>\n    <form method=\"post\" action=\"#\">\n      <div class=\"row uniform 50%\">\n        <div class=\"6u 12u(mobilep)\">\n          <input type=\"text\" name=\"name\" id=\"name\" value=\"\" placeholder=\"Name\" />\n        </div>\n        <div class=\"6u 12u(mobilep)\">\n          <input type=\"email\" name=\"email\" id=\"email\" value=\"\" placeholder=\"Email\" />\n        </div>\n      </div>\n      \n      <div class=\"row uniform 50%\">\n        <div class=\"6u 12u(narrower)\">\n          <input type=\"checkbox\" id=\"copy\" name=\"copy\" />\n          <label for=\"copy\">Email me a copy of this message</label>\n        </div>\n      </div>\n      <div class=\"row uniform 50%\">\n        <div class=\"12u\">\n          <textarea name=\"message\" id=\"message\" placeholder=\"Enter your message\" rows=\"6\"></textarea>\n        </div>\n      </div>\n      <div class=\"row uniform\">\n        <div class=\"12u\">\n          <ul class=\"actions\">\n            <li><input type=\"submit\" value=\"Send Message\" /></li>\n            <li><input type=\"reset\" value=\"Reset\" class=\"alt\" /></li>\n          </ul>\n        </div>\n      </div>\n    </form>\n</section>\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Current Staff",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/Staff/current-staff.html",
+        "date"     : "",
+        "content"  : "<p>this is a test too</p>\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Former Staff",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/Staff/former-staff.html",
+        "date"     : "",
+        "content"  : "<p>and this too is a test</p>\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Home",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/",
+        "date"     : "",
+        "content"  : "<section class=\"box special\">\n\t<header class=\"major\">\n\t\t<h2>Kalamazoo Area Mathematics\n\t\t<br />\n\t\tand Science Center</h2>\n\t\t<p>A school providing challenging, accelerated education in mathematics, science and technology to selected students in grades 9 through 12.</p>\n\t</header>\n\t<span class=\"image featured\"><img src=\"assets/images/pic01.jpg\" alt=\"\" /></span>\n</section>\n\n<section class=\"box special features\">\n\t<div class=\"features-row\">\n\t\t<section>\n\t\t\t<span class=\"icon major fa-bolt accent2\"></span>\n\t\t\t<h3>About</h3>\n\t\t\t<p>Learn more about KAMSC on the <a href=\"KAMSC/about.html\">About page</a>.</p>\n\t\t</section>\n\t\t<section>\n\t\t\t<span class=\"icon major fa-area-chart accent3\"></span>\n\t\t\t<h3>Academics</h3>\n\t\t\t<p>.........</p>\n\t\t</section>\n\t</div>\n\t<div class=\"features-row\">\n\t\t<section>\n\t\t\t<span class=\"icon major fa-cloud accent4\"></span>\n\t\t\t<h3>Admissions</h3>\n\t\t\t<p>.........</p>\n\t\t</section>\n\t\t<section>\n\t\t\t<span class=\"icon major fa-lock accent5\"></span>\n\t\t\t<h3>Resources</h3>\n\t\t\t<p>Resources for Parents and Students</p>\n\t\t</section>\n\t</div>\n</section>\n\n<div class=\"row\">\n\t<div class=\"6u 12u(narrower)\">\n\n\t\t<section class=\"box special\">\n\t\t\t<span class=\"image featured\"><img src=\"assets/images/pic02.jpg\" alt=\"\" /></span>\n\t\t\t<h3>Sed lorem adipiscing</h3>\n\t\t\t<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>\n\t\t\t<ul class=\"actions\">\n\t\t\t\t<li><a href=\"#\" class=\"button alt\">Learn More</a></li>\n\t\t\t</ul>\n\t\t</section>\n\n\t</div>\n\t<div class=\"6u 12u(narrower)\">\n\n\t\t<section class=\"box special\">\n\t\t\t<span class=\"image featured\"><img src=\"assets/images/pic03.jpg\" alt=\"\" /></span>\n\t\t\t<h3>Accumsan integer</h3>\n\t\t\t<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>\n\t\t\t<ul class=\"actions\">\n\t\t\t\t<li><a href=\"#\" class=\"button alt\">Learn More</a></li>\n\t\t\t</ul>\n\t\t</section>\n\n\t</div>\n</div>\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Mission and Philosophy",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/KAMSC/mission-and-philosophy.html",
+        "date"     : "",
+        "content"  : "<h3>Mission</h3>\n\n<p>The mission of the Kalamazoo Area Mathematics and Science Center Accelerated Program is to design and deliver educational experiences to selected students who will benefit from a highly rigorous, sequential and integrated exposure to mathematics, science and computer science in an environment where respect for self and others is valued.</p>\n\n<h3>Philosophy</h3>\n\n<p>Behind the Kalamazoo Area Mathematics and Science Center lies a vision that challenges the old boundaries. It is an idea that transcends the segmentation of society in the interest of a common goal - effective education. The university educator, the high school teacher, professional scientist, mathematician, public school system, private business, parents - all can unite their resources in the service of awakening a developing mind.</p>\n\n<p>KAMSC, then, is a collaboration, a conflux of resources. It is a way of meeting our problems - the decline of scientific literacy, the shortage of technical manpower, dwindling federal support of education. All communities large and small face them. They are national problems, but their force is localized, communal. So must be their treatment.</p>\n\n<p>The primary goal of KAMSC’s on site program is to educate the scientific and technical leaders of tomorrow in an environment focused on the technical and intellectual needs of advanced public and private high school students in the Kalamazoo area.</p>\n\n<p>KAMSC’s curriculum is dynamic, to be developed and refined as the Center grows. Several principles, however, lie at the core. KAMSC’s curriculum delivers programs in mathematics and science unavailable at any one school. It unites accelerated instruction with enrichment, encouraging students to probe challenging topics in each discipline in a technology enriched environment.</p>\n\n<p>Communication skills and computer fluency are stressed. Research and experimentation with KAMSC staff and area professional scientists is encouraged. In all, the curriculum is deliberately innovative in both course content and in methods of delivery.</p>\n\n<p>An integral part of the KAMSC approach is a mentorship program in which students work directly, one on one, with professional scientists, mathematicians, educators and other experts in the community to develop skills and deepen knowledge. An outreach program ensures that the Center’s influence is broadened to the entire community.</p>\n\n<p>But above all, beyond technique and equipment and innovation, lies a single goal: effective education. So that every student with particular aptitude for mathematics and/or science can say as one did last year, “I like the challenge. School has been easy until now, and I was bored. Now I’m never bored.”</p>\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Parent Resources",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/resources/parent.html",
+        "date"     : "",
+        "content"  : "<p>also a test…..</p>\n"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Sizzlin&#39; Summer",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/sizzlin-summer.html",
+        "date"     : "",
+        "content"  : "also a test.....\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Student Resources",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/resources/student.html",
+        "date"     : "",
+        "content"  : "....\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Why should I apply?",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/KAMSC/why-apply.html",
+        "date"     : "",
+        "content"  : "<h3>Who should apply?</h3>\n\nThe decision is often not an easy one. The information listed below represents a composite of most of the students in the KAMSC program but in no way represents a definitive and exclusive set of qualifiers. The items are presented as a means for you to compare student qualifications with those that fit the profile of a typical KAMSC student. If you have questions or would like further explanation on any of the below items, please contact us.\n\nTypical students in the program have:\nabove a B average in math, science and English classes in high school\nscores higher than 40 out of 72 on the KAMSC entrance exam\nWhile these items are consistent with most of the students enrolled in KAMSC, there are exceptions. (For example, more than 15% of the students admitted to KAMSC earn entrance exam scores of 40 or less.) In addition to these items, the KAMSC Applicant Review Panel also considers: student responses to the application questionnaire, student writing samples, teacher recommendations and evaluations of student performance, and characteristics of success such as self-motivation and responsibility.\n\nPlease do not treat the items listed above as required standards for acceptance. They are provided for guidance purposes only.\n\nNOTE: Students must be enrolled in an Algebra I or higher level math class during their 8th grade year.\n\n<h3>Why apply?</h3>\n\n<h4>The following traits are typical of a KAMSC graduate:</h4>\n\n<h5>An independent, thoughtful, reflective and complex thinker who:</h5>\n\n<ul>\n  <li>Uses higher-order thinking</li>\n  <li>Makes connections</li>\n  <li>Sees beyond the obvious</li>\n  <li>Is reflective and self-analytical</li>\n  <li>Is persistent and self-motivated</li>\n  <li>Uses appropriate skills and tools</li>\n</ul>\n\n<h5>A collaborative Worker who:</h5>\n\n<ul>\n  <li>Is a positive contributor</li>\n  <li>Is independent, cooperative, and inclusive</li>\n  <li>Exhibits leadership</li>\n  <li>Is trustworthy and respectful of others</li>\n  <li>Communicates well</li>\n  <li>Is flexible</li>\n  <li>Consistently produces quality work</li>\n  <li>Has good time-management skills</li>\n  <li>Demonstrates a sense of community</li>\n</ul>\n\n<h5>A Life-long self-directed learner who:</h5>\n\n<ul>\n  <li>Prioritizes goals</li>\n  <li>Monitors and evaluates</li>\n  <li>Has a positive self-image</li>\n  <li>Is consistent & disciplined</li>\n  <li>Is responsible</li>\n  <li>Is insightful and inquisitive</li>\n  <li>Has commitment and drive</li>\n</ul>\n"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } 
+  
+]
