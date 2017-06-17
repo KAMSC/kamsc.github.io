@@ -15,7 +15,7 @@
   href: "academics"
 
 - title: "Staff"
-  href: "staff"
+  href: "Staff"
   subcategories:
     - subtitle: "Current Staff"
       subhref: "current-staff"
@@ -23,7 +23,7 @@
       subhref: "former-staff"
 
 - title: "Resources"
-  href: "Resources"
+  href: "resources"
   subcategories:
     - subtitle: "Blog"
       subhref: "blog"
