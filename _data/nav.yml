@@ -2,7 +2,7 @@
   href: "index"
 
 - title: "KAMSC"
-  href: "KAMSC"
+  href: "kamsc"
   subcategories:
     - subtitle: "About"
       subhref: "about"
@@ -15,7 +15,7 @@
   href: "academics"
 
 - title: "Staff"
-  href: "Staff"
+  href: "staff"
   subcategories:
     - subtitle: "Current Staff"
       subhref: "current-staff"
