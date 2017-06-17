@@ -1,32 +1,34 @@
-<!-- Wrapper -->
-<div id="wrapper">
+<div id="page-wrapper">
 
 <!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-	<nav>
-		<a href="#menu">Menu</a>
-	</nav>
+<header id="header" {% if page.url == "/index.html" %} class="alt"{% endif %}>
+	<h1><a href="index.html">{{ site.title }}</a> {{site.subtitle}}</h1>
+	{% include menu.html %}
 </header>
 
-<!-- Menu -->
-<nav id="menu">
-	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
-	    	{% endif %}
-		{% endfor %}
-		{% for page in site.pages %}
-		    {% if page.layout != "home" %}
-					{% if page.in-nav%}
-			        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-					{% endif %}
-		    {% endif %}
-		{% endfor %}
+{% if page.layout == "default" %}
+<!-- Banner -->
+<div class="bg">
+	<video class="bgvid" autoplay="autoplay" muted="muted" preload="auto">
+		<source src="/assets/videos/bg.mp4" type="video/mp4" />
+	</video>
+</div>
+<section id="banner">
+	<h2>This is KAMSC</h2>
+	<p>{{ site.description | upcase}}</p>
+	<ul class="actions">
+		<li><a href="#" class="button special">Sign Up</a></li>
+		<li><a href="#" class="button">Learn More</a></li>
 	</ul>
-	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
-	</ul>
-</nav>
+</section>
+<section id="main" class="container">
+{% else %}
+<section id="main" class="container">
+	<header>
+		<h2>{{ page.title }}</h2>
+		{% if page.description %}
+			<p>{{ page.description }}</p>
+		{% endif %}
+	</header>
+	<section class="box">
+{% endif %}
