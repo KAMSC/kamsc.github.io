@@ -3101,13 +3101,14 @@
 		#main > header {
 			text-align: center;
 			margin: 0 0 2em 0;
+			background-color: white;
+			border-radius: 6px;
 		}
 
 			#main > header h2 {
 				font-size: 2.75em;
 				margin: 0;
-				background-color: white;
-				border-radius: 6px;
+
 			}
 
 			#main > header p {
