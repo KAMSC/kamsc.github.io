@@ -1,3 +1,5 @@
 _site
 .DS_Store
 !.travis.yml
+
+.DS_Store
