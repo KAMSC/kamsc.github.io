@@ -3034,8 +3034,8 @@
 		/*background-image: url("images/overlay.png"), url("../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
-		color: #fff;*/
+		background-size: auto,							cover;*/
+		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
 	}
@@ -3318,6 +3318,16 @@
 
 			header br {
 				display: none;
+			}
+			.bg
+			{
+				display: none;
+			}
+			#banner {
+				background-image: url("images/overlay.png"), url("../images/banner.jpg");
+				background-position: top left,						center center;
+				background-repeat: repeat,							no-repeat;
+				background-size: auto,							cover;
 			}
 
 			header.major {
@@ -3760,13 +3770,31 @@
 			}
 
 	}
-	.bgvid
+	.bg
 	{
 		position: fixed;
+  		top: -50%;
+  		left: -50%;
+  		width: 200%;
+  		height: 200%;
+		z-index: -1;
+	}
+	.bgvid
+	{
+		position: absolute;
+  		top: 0;
+  		left: 0;
+  		right: 0;
+  		bottom: 0;
+  		margin: auto;
+  		min-width: 50%;
+  		min-height: 50%;
+		/*position: fixed;
   		left:-5vw;
   		top:0;
   		width:110vw;
-		z-index: -1;
+  		height: auto;
+		z-index: -1;*/
 		filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
   		-webkit-filter: brightness(50%) blur(10px);
   		-ms-filter: brightness(50%) blur(10px);
