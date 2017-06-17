@@ -3130,6 +3130,8 @@
 		background: #f0f0f0;
 		padding: 4em 0 6em 0;
 		text-align: center;
+		border-radius: 6px;
+		margin: 2em 0 0 0;
 	}
 
 		#footer .icons a {
