@@ -42,3 +42,5 @@ google_url: https://plus.google.com/117398504371614326665
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-sitemap
