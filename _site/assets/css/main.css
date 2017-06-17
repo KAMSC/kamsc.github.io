@@ -3095,7 +3095,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		/*padding: 4em 0;*/
 	}
 
 		#main > header {
@@ -3107,8 +3107,7 @@
 
 			#main > header h2 {
 				font-size: 2.75em;
-				margin: 0;
-
+				margin: 1em 0 0 0 ;
 			}
 
 			#main > header p {
@@ -3130,8 +3129,9 @@
 		background: #f0f0f0;
 		padding: 4em 0 6em 0;
 		text-align: center;
-		border-radius: 6px;
+		border-radius: 6px 6px 0 0;
 		margin: 2em 0 0 0;
+		bottom: 0!important;
 	}
 
 		#footer .icons a {
@@ -3632,7 +3632,7 @@
 		/* Main */
 
 			#main {
-				padding: 4em 0 0 0;
+				padding: 2em 0 0 0;
 			}
 
 				#main > header {
