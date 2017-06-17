@@ -2,7 +2,7 @@
   href: "index"
 
 - title: "KAMSC"
-  href: "kamsc"
+  href: "KAMSC"
   subcategories:
     - subtitle: "About"
       subhref: "about"
@@ -23,14 +23,14 @@
       subhref: "former-staff"
 
 - title: "Resources"
-  href: "resources"
+  href: "Resources"
   subcategories:
     - subtitle: "Blog"
       subhref: "blog"
     - subtitle: "Student"
       subhref: "student"
     - subtitle: "Parent"
-      subhref: "Parent"
+      subhref: "parent"
 
 - title: "Sizzlin' Summer"
   href: "sizzlin-summer"
