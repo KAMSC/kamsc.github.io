@@ -34,6 +34,9 @@
 <loc>http://localhost:4000/resources/student.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/staff/test-teacher-page.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/kamsc/why-apply.html</loc>
 </url>
 <url>
