@@ -21,6 +21,8 @@
       subhref: "current-staff"
     - subtitle: "Former Staff"
       subhref: "former-staff"
+    - subtitle: "Teacher 1's Page"
+      subhref: "test-teacher-page"
 
 - title: "Resources"
   href: "resources"

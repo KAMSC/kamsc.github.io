@@ -31,6 +31,22 @@
 			<p>{{ page.description }}</p>
 		{% endif %}
 		<br />
+		{% if page.staff-pic %}
+	    <center style="padding-bottom: 30px;">
+	        <div class="staff-pic">
+	            <img src="{{ page.staff-pic }}" alt="{{page.title}}'s Image">
+	        </div>
+	    </center>
+	    {% endif %}
+		{% if page.quote %}
+			<i><h3>{{ page.quote }}</h3></i>
+		{% endif %}
+		{% if page.email %}
+			<h4><a href="mailto:{{ page.email }}">{{ page.email }}</a></h4>
+		{% endif %}
+		{% if page.link %}
+			<h4><a href="{{ page.link }}">{{ page.link }}</a></h4>
+		{% endif %}
 	</header>
 	<section class="box">
 {% endif %}
