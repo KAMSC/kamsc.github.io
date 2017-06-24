@@ -44,3 +44,4 @@ google_url: https://plus.google.com/117398504371614326665
 markdown: kramdown
 gems:
   - jekyll-sitemap
+host: 0.0.0.0
