@@ -3817,3 +3817,16 @@
 		margin: auto;
 		width: 100vw;
 	}
+	.staff-pic
+	{
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+		border-radius: 50%;
+		border: 2px solid #202020;
+	}
+	.staff-pic img
+	{
+		width: auto;
+		height: 100%;
+	}
