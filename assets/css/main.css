@@ -3829,6 +3829,8 @@
 	{
 		width: auto;
 		height: 100%;
+		display:block;
+    	margin:auto;
 	}
 
 	.blockquote-bigbold

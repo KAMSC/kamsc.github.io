@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Teacher 1
-staff-pic: /assets/images/staff/teacher1-pic.png
+staff-pic: staff/teacher1-pic.png
 quote: Instructor, teacher, and all-square awesome dude.
 email: blah@blah.com
 link: https://google.com
