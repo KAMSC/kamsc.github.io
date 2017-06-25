@@ -3830,3 +3830,10 @@
 		width: auto;
 		height: 100%;
 	}
+
+	.blockquote-bigbold
+	{
+		font-size: 1.15em;
+		font-weight: bold;
+		margin: 0 0 0.75em 0;
+	}
