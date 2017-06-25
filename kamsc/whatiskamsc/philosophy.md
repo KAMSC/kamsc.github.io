@@ -3,8 +3,6 @@ layout: page
 title: Philosophy
 ---
 
-<h3>Philosophy</h3>
-
 Behind the Kalamazoo Area Mathematics and Science Center lies a vision that challenges the old boundaries. It is an idea that transcends the segmentation of society in the interest of a common goal - effective education. The university educator, the high school teacher, professional scientist, mathematician, public school system, private business, parents - all can unite their resources in the service of awakening a developing mind.
 
 KAMSC, then, is a collaboration, a conflux of resources. It is a way of meeting our problems - the decline of scientific literacy, the shortage of technical manpower, dwindling federal support of education. All communities large and small face them. They are national problems, but their force is localized, communal. So must be their treatment.

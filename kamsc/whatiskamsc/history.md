@@ -3,8 +3,6 @@ layout: page
 title: History
 ---
 
-<h3>History</h3>
-
 The Kalamazoo Area Mathematics and Science Center (KAMSC) was conceived in 1981 by what was then The Upjohn Company and established with much cooperation from the schools of the Greater Kalamazoo Area.
 
 After five years of planning, KAMSC opened its doors in 1986, a gift to the Kalamazoo area marking the centennial of The Upjohn Company. The charter ninth grade class of KAMSC included 68 students from 12 school systems, including both public and private schools. KAMSC is a four-year program capable of accommodating up to 300 students.
