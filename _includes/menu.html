@@ -36,9 +36,9 @@
 				<!-- display the top level navigation for items that don’t have a subsubmenu -->
 				<li>
 					{% if subsubcategory.subsubhref == "index" || subsubcategory.subsubhref == "" || subsubcategory.subsubhref == "/" %}
-					<a href="{{ site.url }}/">{{ subcategory.subtitle }}</a>
+					<a href="{{ site.url }}/">{{ subcategory.subsubtitle }}</a>
 					{% else %}
-					<a href="{{ site.url }}/{{ d.href }}/{{ subcategory.subhref }}.html">{{ subsubcategory.subsubtitle }}</a>
+					<a href="{{ site.url }}/{{ d.href }}/{{ subcategory.subhref }}/{{ subsubcategory.subsubhref }}.html">{{ subsubcategory.subsubtitle }}</a>
 					{% endif %}
 				{% endif %}
 				</li>

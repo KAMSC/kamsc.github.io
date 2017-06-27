@@ -17,8 +17,10 @@
     {% if page.courses %}
     <h3>Courses:</h3>
     {% for c in page.courses %}
-    <a href="{{ site.github.url }}/curriculum/onsitecourses/{{ c.url }}">{{ c.title }}</a>
+    <a href="{{ site.github.url }}/curriculum/onsitecourses/{{ c.url }}.html">{{ c.title }}</a>
+    <br />
     {% endfor %}
+    <br />
     {% endif %}
 
     {{ content }}

@@ -4,6 +4,21 @@ title: Ms. Cheryl Hach
 staff-pic: instructional/Ms. Cheryl Hach.jpg
 email: CHach@kamsc.k12.mi.us
 quote: Instructor
+courses:
+  - title: AP Environmental Science
+    url: science/APEnvironmentalScience
+  - title: Biochemistry
+    url: science/Biochemistry
+  - title: Bio-Ethics
+    url: science/Bio-Ethics
+  - title: Biomedical Science
+    url: science/BiomedicalScience
+  - title: Current Topics in Science
+    url: other/CurrentTopicsinScience
+  - title: Evolution of Scientific Thought I and II
+    url: science/EvolutionOfScientificThought
+  - title: Organic Chemistry
+    url: science/OrganicChemistry
 ---
 Ms. Hach has a B.S. with majors in both Chemistry and Biology. She received her M.S. in Biological Sciences from Michigan State University, where her primary area of interest was plant biochemistry.
 

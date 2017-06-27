@@ -4,6 +4,15 @@ title: Dr. Joseph Thorstenson
 staff-pic: instructional/Dr. Joseph Thorstenson.jpg
 email: JThorstenson@kamsc.k12.mi.us
 quote: Instructor
+courses:
+  - title: Mentorship
+    url: other/Mentorship
+  - title: Independent Research
+    url: other/IndependentResearch
+  - title: Research Team
+    url: other/ResearchTeam
+  - title: Research Science
+    url: other/ResearchScience
 ---
 Dr. Joseph Thorstenson (aka Dr. T) joined the KAMSC staff in the fall of 2000 as a chemistry instructor.
 

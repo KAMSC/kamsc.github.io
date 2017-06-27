@@ -4,6 +4,11 @@ title: Ms. Laila Kalnins
 staff-pic: instructional/Ms. Laila Kalnins.jpg
 email: LKalnins@kamsc.k12.mi.us
 quote: Instructor
+courses:
+  - title: AP Statistics
+    url: mathematics/APStatistics
+  - title: KAMSC Integrated Math I/Geometry
+    url: mathematics/KAMSCIntegMathIGeometry(Honors)
 ---
 Laila Kalnins received her Bachelor's degree with a major in math and minor in German from Western Michigan University. While she was teaching at Hackett Catholic Central High School in Kalamazoo, she earned her Master's degree in Math Education from Western Michigan University. She has been teaching at KAMSC since the fall of 1993.  In 2001 she became a National Board Certified Teacher.
 

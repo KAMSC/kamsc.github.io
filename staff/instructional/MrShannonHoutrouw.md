@@ -4,6 +4,15 @@ title: Mr. Shannon Houtrouw
 staff-pic: instructional/Mr. Shannon Houtrouw.jpg
 email: SHoutrouw@kamsc.k12.mi.us
 quote: Computer Science Instructor
+courses:
+  - title: Computer Studies (Pre-APCS with C++)
+    url: computer-oriented/ComputerStudies
+  - title: AP Computer Science (with Java)
+    url: computer-oriented/APComputerScience
+  - title: Discrete Mathematics
+    url: mathematics/DiscreteMathematics
+  - title: Advanced Computer Science (with Python)
+    url: computer-oriented/AdvancedComputerScience
 ---
 Mr. Houtrouw came to KAMSC in 1997 after teaching university math and computer science for nearly a decade. Houtrouw also worked as a software systems engineer for General Motors / Electronic Data Systems. He taught three summer terms in Zimbabwe, Africa. Houtrouw earned a BS in computer science from Oklahoma Christian University, and a MSE in mathematics from Harding University. His certifications are in computer science and mathematics.
 

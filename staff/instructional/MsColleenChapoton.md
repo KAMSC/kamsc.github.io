@@ -4,6 +4,11 @@ title: Ms. Colleen Chapoton
 staff-pic: instructional/Ms. Colleen Chapoton.jpg
 email: CChapoton@kamsc.k12.mi.us
 quote: Instructor
+courses:
+  - title: KAMSC Honors Biology
+    url: science/Biology(Honors)
+  - title: AP Biology
+    url: science/APBiology
 ---
 Ms. Chapoton graduated from Albion College and the Fritz Shurmur Education Institute in 2001 with a B.A. in Biology and Psychology. She obtained her Master of Arts in Education from Spring Arbor University in 2005. She started teaching at Hackett Catholic Prep in 2002 and joyfully continued her work until 2015, when she joined the KAMSC staff. While at Hackett, Ms. Chapoton taught A.P. Biology, Biology, Environmental Science, Human Development, Anatomy and Physiology, Physical Science, Earth Science, Ecology, and Psychology. Ms. Chapoton was also an advisor for National Honor Society, Earth Club, and she was a Varsity Bowling Coach.
 
