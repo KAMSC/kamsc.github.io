@@ -3827,10 +3827,10 @@
 	}
 	.staff-pic img
 	{
-		width: auto;
-		height: 100%;
-		display:block;
-    	margin:auto;
+		display: block;
+		object-fit: cover;
+  		width: 100%;
+  		width: 100%;
 	}
 
 	.blockquote-bigbold
@@ -3839,3 +3839,14 @@
 		font-weight: bold;
 		margin: 0 0 0.75em 0;
 	}
+	.logo
+	{
+		width: 150px;
+		height: auto;
+	}
+		@media screen and (max-width: 480px) {
+			.logo
+			{
+				width: 100px;
+			}
+		}
