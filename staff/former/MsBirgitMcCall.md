@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Ms. Birgit McCall
-staff-pic: former/
-email: @kamsc.k12.mi.us
+email: bdmccall@uillinois.edu
+quote: Office Manager
 ---
+Office Manager - at KAMSC from 1987 thru 1997. Currently employed at U Illinois - UC
+Alternate email = Birgit McCall (Yahoo)

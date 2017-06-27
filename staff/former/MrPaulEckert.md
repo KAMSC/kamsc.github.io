@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Mr. Paul Eckert
-staff-pic: former/
-email: @kamsc.k12.mi.us
+email: peckert@animas.net
+quote: Instructor
 ---
+Mathematics Faculty - at KAMSC from 1987 thru 1993.

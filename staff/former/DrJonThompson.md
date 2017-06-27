@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Dr. Jon Thompson
-staff-pic: former/
-email: @kamsc.k12.mi.us
+email: mbe1826@earthlink.net
+quote: Director
 ---
+Founding Director: (1986-1991). Currently living in Colorado Springs.

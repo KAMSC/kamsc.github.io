@@ -3,6 +3,7 @@ layout: page
 title: Dr. Michael Tanoff
 staff-pic: administrative/Dr. Michael Tanoff.jpg
 email: MTanoff@kamsc.k12.mi.us
+quote: Director
 ---
 Dr. Tanoff joined the KAMSC team as Director in August of 2011. He holds a bachelor’s degree in chemical engineering from Rutgers University and a Ph.D. in engineering and applied science from Yale University, where he received the Harding Bliss Prize for Excellence In Engineering and Applied Science as the graduating student "who has done the most to further the intellectual life of the department."
 
