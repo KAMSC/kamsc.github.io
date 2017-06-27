@@ -3827,6 +3827,26 @@
 	}
 	.staff-pic img
 	{
-		width: auto;
-		height: 100%;
+		display: block;
+		object-fit: cover;
+  		width: 100%;
+  		width: 100%;
 	}
+
+	.blockquote-bigbold
+	{
+		font-size: 1.15em;
+		font-weight: bold;
+		margin: 0 0 0.75em 0;
+	}
+	.logo
+	{
+		width: 150px;
+		height: auto;
+	}
+		@media screen and (max-width: 480px) {
+			.logo
+			{
+				width: 100px;
+			}
+		}

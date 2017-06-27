@@ -2,7 +2,7 @@
 
 <!-- Header -->
 <header id="header" {% if page.url == "/index.html" %} class="alt"{% endif %}>
-	<h1><a href="{{ site.github.url }}">{{ site.title }}</a> {{site.subtitle}}</h1>
+	<h1><a href="{{ site.github.url }}/">{{ site.title }}</a> {{site.subtitle}}</h1>
 	{% include menu.html %}
 </header>
 
@@ -14,6 +14,7 @@
 	</video>
 </div>
 <section id="banner">
+	<img class="logo" src="{{ site.github.url }}/assets/images/KAMSC Logo.png" />
 	<h2>This is KAMSC</h2>
 	<p>{{ site.description | upcase}}</p>
 	<ul class="actions">
@@ -26,26 +27,38 @@
 <section id="main" class="container">
 	<header>
 		<br />
-		<h2>{{ page.title }}</h2>
-		{% if page.description %}
-			<p>{{ page.description }}</p>
+		{% if page.title-full %}
+			<h2>{{ page.title-full }}</h2>
+		{% else %}
+			<h2>{{ page.title }}</h2>
+		{% endif %}
+		{% if page.layout != "course-page" %}
+			{% if page.description %}
+				<p>{{ page.description }}</p>
+			{% endif %}
+		{% else %}
+			{% if page.coursename %}
+			<p>
+				<code>{{ page.coursename }}</code><br />
+			</p>
+			{% endif %}
 		{% endif %}
 		<br />
 		{% if page.staff-pic %}
 	    <center style="padding-bottom: 30px;">
 	        <div class="staff-pic">
-	            <img src="{{ page.staff-pic }}" alt="{{page.title}}'s Image">
+	            <img src="{{site.github.url}}/assets/images/staff/{{ page.staff-pic }}" alt="{{page.title}}'s Image">
 	        </div>
 	    </center>
 	    {% endif %}
 		{% if page.quote %}
-			<i><h3>{{ page.quote }}</h3></i>
+			<i style="padding-bottom: 20px;"><h3>{{ page.quote }}</h3></i>
 		{% endif %}
 		{% if page.email %}
-			<h4><a href="mailto:{{ page.email }}">{{ page.email }}</a></h4>
+			<h4 style="padding-bottom: 20px;"><a href="mailto:{{ page.email }}">{{ page.email }}</a></h4>
 		{% endif %}
 		{% if page.link %}
-			<h4><a href="{{ page.link }}">{{ page.link }}</a></h4>
+			<h4 style="padding-bottom: 20px;"><a href="{{ page.link }}">{{ page.link }}</a></h4>
 		{% endif %}
 	</header>
 	<section class="box">

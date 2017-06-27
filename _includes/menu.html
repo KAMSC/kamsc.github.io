@@ -6,15 +6,58 @@
     <!-- check to see if the data file has a submenu, and if so display it -->
     {% if d.subcategories != null %}
     <li class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+    <!--a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+		{{ d.title }}
+		<i class="fa fa-angle-down"></i>
+	</a-->
+	<a href="#">
 		{{ d.title }}
 		<i class="fa fa-angle-down"></i>
 	</a>
     <ul class="dropdown-menu">
     {% for subcategory in d.subcategories %}
-    <li>
-		<a href="{{ site.url }}/{{d.href}}/{{ subcategory.subhref }}.html">{{ subcategory.subtitle }}</a>
-	</li>
+	    {% if subcategory.subsubcategories != null %}
+	    <li class="opener">
+			<a href="#">{{ subcategory.subtitle }}</a>
+	    <ul class="dropdown">
+	        {% for subsubcategory in subcategory.subsubcategories %}
+				{% if subsubcategory.subsubsubcategories != null %}
+				<li class="opener">
+					<a href="#">{{ subsubcategory.subsubtitle }}</a>
+				<ul class="dropdown">
+					{% for subsubsubcategory in subsubcategory.subsubsubcategories %}
+					<li>
+						<a href="{{ site.url }}/{{d.href}}/{{ subcategory.subhref }}/{{ subsubcategory.subsubhref }}/{{ subsubsubcategory.subsubsubhref }}.html">{{ subsubsubcategory.subsubsubtitle }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+				{% else %}
+
+				<!-- display the top level navigation for items that don’t have a subsubmenu -->
+				<li>
+					{% if subsubcategory.subsubhref == "index" || subsubcategory.subsubhref == "" || subsubcategory.subsubhref == "/" %}
+					<a href="{{ site.url }}/">{{ subcategory.subsubtitle }}</a>
+					{% else %}
+					<a href="{{ site.url }}/{{ d.href }}/{{ subcategory.subhref }}/{{ subsubcategory.subsubhref }}.html">{{ subsubcategory.subsubtitle }}</a>
+					{% endif %}
+				{% endif %}
+				</li>
+			{% endfor %}
+			<!--li>
+	            <a href="{{ site.url }}/{{d.href}}/{{ subcategory.subhref }}/{{ subsubcategory.subsubhref }}.html">{{ subsubcategory.subsubtitle }}</a>
+	        </li-->
+	    </ul>
+	    {% else %}
+
+	    <!-- display the top level navigation for items that don’t have a subsubmenu -->
+	    <li>
+	        {% if subcategory.subhref == "index" || subcategory.subhref == "" || subcategory.subhref == "/" %}
+	        <a href="{{ site.url }}/">{{ subcategory.subtitle }}</a>
+	        {% else %}
+	        <a href="{{ site.url }}/{{ d.href }}/{{ subcategory.subhref }}.html">{{ subcategory.subtitle }}</a>
+	        {% endif %}
+	    {% endif %}
+	    </li>
     {% endfor %}
     </ul>
     {% else %}

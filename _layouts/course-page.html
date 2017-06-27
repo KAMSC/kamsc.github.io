@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+    {% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    {% if page.instructor %}
+    <h3>Instructor:</h3>
+    {% for i in page.instructor %}
+    <h4><a href="{{site.github.url}}/staff/{{ i.url }}.html">{{ i.name }}</a></h4>
+    {% endfor %}
+    <hr/>
+    {% endif %}
+    {% if page.description %}
+    <h3>Description:</h3>
+    <span>{{ page.description }}</span>
+    {% endif %}
+
+    {% include footer.html %}
+
+
+</body>
+
+</html>

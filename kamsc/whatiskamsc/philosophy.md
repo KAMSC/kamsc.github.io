@@ -1,13 +1,7 @@
 ---
 layout: page
-title: Mission and Philosophy
+title: Philosophy
 ---
-
-<h3>Mission</h3>
-
-The mission of the Kalamazoo Area Mathematics and Science Center Accelerated Program is to design and deliver educational experiences to selected students who will benefit from a highly rigorous, sequential and integrated exposure to mathematics, science and computer science in an environment where respect for self and others is valued.
-
-<h3>Philosophy</h3>
 
 Behind the Kalamazoo Area Mathematics and Science Center lies a vision that challenges the old boundaries. It is an idea that transcends the segmentation of society in the interest of a common goal - effective education. The university educator, the high school teacher, professional scientist, mathematician, public school system, private business, parents - all can unite their resources in the service of awakening a developing mind.
 
