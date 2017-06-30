@@ -26,9 +26,6 @@
     - subtitle: "Donations"
       subhref: "donations"
 
-- title: "Academics"
-  href: "academics"
-
 - title: "Staff"
   href: "staff"
   subcategories:
@@ -121,6 +118,16 @@
           subsubhref: "MrsRosemaryBrown"
         - subsubtitle: "Dr. Wayne Schade"
           subsubhref: "DrWayneSchade"
+
+- title: Admissions
+  href: "admissions"
+  subcategories:
+    - subtitle: Applying to KAMSC
+      subhref: applyingtokamsc
+    - subtitle: Should I apply?
+      subhref: shouldiapply
+    - subtitle: Outcomes
+      subhref: outcomes
 
 - title: "Curriculum"
   href: "curriculum"
@@ -215,18 +222,26 @@
     - subtitle: "Special Programs"
       subhref: "specialprograms"
 
-- title: "Resources"
-  href: "resources"
-  subcategories:
-    - subtitle: "Blog"
-      subhref: "blog"
-    - subtitle: "Student"
-      subhref: "student"
-    - subtitle: "Parent"
-      subhref: "parent"
+#- title: "Resources"
+#  href: "resources"
+#  subcategories:
+#    - subtitle: "Blog"
+#      subhref: "blog"
+#    - subtitle: "Student"
+#      subhref: "student"
+#    - subtitle: "Parent"
+#      subhref: "parent"
 
 - title: "Sizzlin' Summer"
   href: "sizzlin-summer"
-
+- title: KAMSC Connection
+  href: "kamscconnection"
+  subcategories:
+    - subtitle: Calendar
+      subhref: calendar
+    - subtitle: Downloads
+      subhref: downloads
+    - subtitle: Links
+      subhref: links
 - title: "Contact Us"
   href: "contact-us"
