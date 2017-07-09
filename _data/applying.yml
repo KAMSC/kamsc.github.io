@@ -1,0 +1,69 @@
+app1:
+  - title: You're Invited To Consider the KAMSC
+    category: KAMSC Applicants for 10th, 11th, and 12th Grades
+    file: You're Invited to Consider 2017-18 brochure
+  - title: Entrance Exam Registration Form
+    category: KAMSC Applicants for 10th, 11th, and 12th Grades
+    file: Final 2017 UC Entrance Exam Registration Form
+upp1:
+  - title: Application Documents Checklist
+    file: Application Documents Checklist
+  - title: How To Improve Your Application
+    file: How To Improve Your Application
+  - title: Instructions for Parts A, B, and C
+    file: Instructions for Parts A, B, and C
+  - title: Information for Applicants for 10th, 11th, & 12th Grades and their Parents booklet
+    file: Information for Applicants for 10th, 11th, & 12th Grades and their Parents
+  - title: Profile of a Typical Upper Class KAMSC Student
+    file: Profile of a Typical Upper Class KAMSC Student
+teach1:
+  - title: Instructions and Information for Teachers
+    file: Teachers Instructions
+req1:
+  - title: Student Information & Parent Permission Form (Parts A & B)
+    file: Student Info And Parent Permission Form (Parts A&B) Fillable-2017a
+  - title: Student Questionnaire Form (Part C)
+    file: Student Questionnaire (Part C)
+  - title: Application Answer Sheet
+    file: Application Answer Sheet
+  - title: Mathematics Teacher Form
+    file: Mathematics Teacher Form
+  - title: Science Teacher Form
+    file: Science Teacher Form
+  - title: English Teacher Form
+    file: English Teacher Form
+  - title: Guidance Counselor Report Form
+    file: Guidance Counselor Report Form
+
+req2:
+  - title: "Parts A & B: Student Information & Parent Permission Form"
+    file: Student Info And Parent Permission Form (Parts A&B) Fillable-2017a
+  - title: "Part C: Student Questionnaire Form"
+    file: Student Questionnaire (Part C)Fillable-2017a
+  - title: Applicant Answer Sheet
+    file: Application Answer Sheet Fillable-2017
+  - title: Mathematics Teacher Recommendation Form
+    file: Mathematics Teacher Recommendation Form-2017a
+  - title: Science Teacher Recommendation Form
+    file: Science Teacher Recommendation Form Fillable-2017
+  - title: English Teacher Recommendation Form
+    file: English Teacher Recommendation Form Fillable-2017a
+  - title: Guidance Counselor Report
+    file: Guidance Counselor Report Form Fillable-2017
+
+eighth:
+  - title: Application Documents Checklist
+    file: Application Documents Checklist-2017
+  - title: 8th Grader KAMSC Applicant Memo
+    file: 8th Grader Applicant Memo-2017
+  - title: How To Improve Your Application
+    file: How to Improve Your Application-2017
+  - title: Instructions For Parts A, B, and C
+    file: Instructions for Parts ABC-2017
+  - title: Profile of a Typical KAMSC Student
+    file: Profile of a Typical KAMSC Student-2017
+  - title: You're Invited to Consider
+    file: You're Invited to Consider 2017-18 brochure
+teach2:
+  - title: Instructions and Information for Teachers
+    file: Instructions and Information for Teachers Brochure-2017
