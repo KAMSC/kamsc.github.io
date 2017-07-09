@@ -38,13 +38,15 @@ __Paying with cash, by check, or applying for financial assistance?__ Please bri
         <thead>
             <tr>
                 <th>Title</th>
+                <th>Category/Description</th>
                 <th>Link</th>
             </tr>
         </thead>
         <tbody>
         {% for n in site.data.sizzlin.files %}
             <tr>
-                <td><a href="{{ site.github.url }}/assets/sizzlin/{{ n.file }}">{{ n.title }}</a></td>
+                <td><h4><a href="{{ site.github.url }}/assets/sizzlin/{{ n.file }}">{{ n.title }}</a></h4></td>
+                <td>{{ n.category }}</td>
                 <td><a download="{{ n.file }}" href="{{ site.github.url }}/assets/sizzlin/{{ n.file }}" class="button alt small icon fa-download">Download</a></td>
             </tr>
         {% endfor %}
