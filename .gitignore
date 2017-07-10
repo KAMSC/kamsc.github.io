@@ -3,3 +3,5 @@ _site/
 .sass-cache/
 _sass/
 !.travis.yml
+
+assets/.DS_Store

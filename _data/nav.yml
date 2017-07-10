@@ -26,9 +26,6 @@
     - subtitle: "Donations"
       subhref: "donations"
 
-- title: "Academics"
-  href: "academics"
-
 - title: "Staff"
   href: "staff"
   subcategories:
@@ -227,6 +224,16 @@
 
 - title: "Sizzlin' Summer"
   href: "sizzlin-summer"
+
+- title: KAMSC Connection
+  href: "kamsc-connection"
+  subcategories:
+    - subtitle: Calendar
+      subhref: calendar
+    - subtitle: Downloads
+      subhref: downloads
+    - subtitle: Links
+      subhref: links
 
 - title: "Contact Us"
   href: "contact-us"
