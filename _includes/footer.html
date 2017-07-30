@@ -36,6 +36,7 @@
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/skel.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/util.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/modernizr.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/iziToast.min.js"></script>
 <!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js"></script>
 <script>$('body').scrollgress();</script>
@@ -55,6 +56,19 @@ jQuery(document).ready(function(){
 			});
 		});
 	}
+});
+</script>
+<script>
+iziToast.show({
+    theme: 'dark',
+    icon: 'fa fa-info-circle',
+    title: 'NOTE',
+    message: "Welcome to KAMSC's new website! Please note that this site is still in development. In case you come across any issues on the website, please let us know at: <a href='mailto:kamsc.h0m3@icloud.com'>kamsc.h0m3@icloud.com</a>. Happy Browsing!",
+    position: 'center', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter
+    progressBarColor: 'rgb(255, 166, 5)',
+	backgroundColor: 'rgb(0, 0, 0)',
+	timeout: 20000,
+	transitionIn: 'bounceInUp'
 });
 </script>
 </div>
