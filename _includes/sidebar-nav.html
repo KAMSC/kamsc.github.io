@@ -1,0 +1,72 @@
+<div id="navPanel">
+    <nav>
+        <ul class="cd-accordion-menu animated">
+            <h1>KAMSC</h1>
+            {% for d in site.data.nav %}
+
+            <!-- check to see if the data file has a submenu, and if so display it -->
+            {% if d.subcategories != null %}
+            <li class="has-children">
+                <input type="checkbox" name="{{ d.href }}" id="{{ d.href }}" />
+                <div></div>
+                <label for="{{ d.href }}">{{ d.title }}</label>
+                <ul>
+                    {% for subcategory in d.subcategories %}
+                    {% if subcategory.subsubcategories != null %}
+                    <li class="has-children">
+                        <input type="checkbox" name="{{ subcategory.subhref }}" id="{{ subcategory.subhref }}" />
+                        <div></div>
+                        <label for="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</label>
+                        <ul>
+                            {% for subsubcategory in subcategory.subsubcategories %}
+                            {% if subsubcategory.subsubsubcategories != null %}
+                            <li class="has-children">
+                                <input type="checkbox" name="{{ subsubcategory.subsubhref }}" id="{{ subsubcategory.subsubhref }}" />
+                                <div></div>
+                                <label for="{{ subsubcategory.subsubhref }}">{{ subsubcategory.subsubtitle }}</label>
+                                <ul>
+                                    {% for subsubsubcategory in subsubcategory.subsubsubcategories %}
+                                    <li>
+                                        <a href="{{ site.url }}/{{d.href}}/{{ subcategory.subhref }}/{{ subsubcategory.subsubhref }}/{{ subsubsubcategory.subsubsubhref }}.html">{{ subsubsubcategory.subsubsubtitle }}</a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                {% else %}
+                                <!-- display the top level navigation for items that don’t have a subsubmenu -->
+                                <li>
+                                    {% if subsubcategory.subsubhref == "index" || subsubcategory.subsubhref == "" || subsubcategory.subsubhref == "/" %}
+                                    <a href="{{ site.url }}/">{{ subcategory.subsubtitle }}</a>
+                                    {% else %}
+                                    <a href="{{ site.url }}/{{ d.href }}/{{ subcategory.subhref }}/{{ subsubcategory.subsubhref }}.html">{{ subsubcategory.subsubtitle }}</a>
+                                    {% endif %}
+                                {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+
+                    <!-- display the top level navigation for items that don’t have a subsubmenu -->
+                    <li>
+                        {% if subcategory.subhref == "index" || subcategory.subhref == "" || subcategory.subhref == "/" %}
+                        <a href="{{ site.url }}/">{{ subcategory.subtitle }}</a>
+                        {% else %}
+                        <a href="{{ site.url }}/{{ d.href }}/{{ subcategory.subhref }}.html">{{ subcategory.subtitle }}</a>
+                        {% endif %}
+                    {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <!-- display the top level navigation for items that don’t have a submenu -->
+                <li>
+                    {% if d.href == "index" || d.href == "" || d.href == "/" %}
+                    <a href="{{ site.url }}/">{{ d.title }}</a>
+                    {% else %}
+                    <a href="{{ site.url }}/{{ d.href }}.html">{{ d.title }}</a>
+                    {% endif %}
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>

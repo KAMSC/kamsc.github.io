@@ -58,60 +58,6 @@ jQuery(document).ready(function(){
 });
 </script>
 </div>
-<div id="navPanel">
-    <nav>
-        <ul class="cd-accordion-menu animated">
-            <li class="has-children">
-                <input type="checkbox" name="group-1" id="group-1" />
-                <div></div>
-                <label for="group-1">Group 1</label>
-                <ul>
-                    <li class="has-children">
-                        <input type="checkbox" name="sub-group-1" id="sub-group-1" />
-                        <div></div>
-                        <label for="sub-group-1">Sub Group 1</label>
-                        <ul>
-                            <li>
-                                <a href="#0">
-                                    Image
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#0">
-                                    Image
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#0">
-                                    Image
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#0">
-                            Image
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#0">
-                            Image
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#0">
-                    Image
-                </a>
-            </li>
-            <li>
-                <a href="#0">
-                    Image
-                </a>
-            </li>
-        </ul>
-    </nav>
-</div>
+{% include sidebar-nav.html %}
 </body>
 </html>

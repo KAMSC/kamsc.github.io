@@ -1,8 +1,16 @@
-
 .cd-accordion-menu {
+    padding: 0;
     max-width: 600px;
     list-style-type: none !important;
-    padding-left: 0;
+}
+.cd-accordion-menu li, .cd-accordion-menu ul li {
+    padding-left: 1.25em;
+}
+.cd-accordion-menu h1 {
+    font-size: 2.25em;
+    text-align: center;
+    padding: 20px 0px 1px 0;
+    color: #3bbab2;
 }
 .cd-accordion-menu li {
     border-bottom: 0;
@@ -25,6 +33,7 @@
     display: none;
     list-style-type: none !important;
     margin: 0;
+    padding-left: 0em;
 }
 /*.cd-accordion-menu input[type="checkbox"] + label::before
 {
@@ -43,7 +52,7 @@ opacity: 0;
     position: relative;
     margin: 0;
     margin-left: 15px;
-    width: 100%;
+    margin-right: 0;
     cursor: pointer;
     font-weight: normal;
 }
@@ -76,8 +85,9 @@ opacity: 0;
 .cd-accordion-menu label::before {
     left: -15px;
     position: absolute;
-    content: '\f054';
+    content: '\f105';
     font-family: 'FontAwesome';
+    font-size: 1.25em;
 }
 /*.cd-accordion-menu input[type="checkbox"] + label::before
 {
