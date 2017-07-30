@@ -9,7 +9,7 @@
 title: H0M3
 subtitle: by KAMSC
 email: kamsc.h0m3@icloud.com
-description: A responsive general purpose site <br /> by KAMSC Students.
+description: Kalamazoo Area Mathematics and Science Center's <br /> new responsive site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kamsc.github.io" # the base hostname & protocol for your site
 blog_url: "https://kamsc.github.io/blog/"
@@ -22,6 +22,7 @@ country: United States of America
 phone: (269) 337-0004
 
 # Logo settings
+logo: "/assets/images/KAMSC Logo.png"
 logo-image-url:
 font-awesome-icon-logo:
 
@@ -44,4 +45,13 @@ google_url: https://plus.google.com/117398504371614326665
 markdown: kramdown
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 host: 0.0.0.0
+
+# Additional SEO Tag settings
+social:
+  name: KAMSC
+  links:
+    - https://twitter.com/KAMSC
+    - https://github.com/KAMSC
+google_site_verification: 7RoiK3Qq8uoihpAdttGJ0eMt2y_i3HNcPJtQQPMd7CQ

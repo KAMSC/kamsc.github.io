@@ -1,8 +1,8 @@
 <head>
-	<title>{{ site.title }} | {{page.title}}</title>
+	<!--title>{{ site.title }} | {{page.title}}</title-->
+    {% seo %}
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="google-site-verification" content="7RoiK3Qq8uoihpAdttGJ0eMt2y_i3HNcPJtQQPMd7CQ" />
 	<!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css" />
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/component.css" />
@@ -15,7 +15,7 @@
 		var sc_invisible=1;
 		var sc_security="5862fb80";
 		var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
-		document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+"statcounter.com/counter/counter.js'></"+"script>");
+		document.write("<script type='text/javascript' src='"+scJsHost+"statcounter.com/counter/counter.js'></script>");
 	</script>
 	<noscript>
 		<div class="statcounter"><a title="web stats"
