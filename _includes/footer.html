@@ -29,16 +29,35 @@
 </footer>
 
 </section>
-
 <!-- Scripts -->
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery.scrollgress.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/skel.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/util.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/modernizr.js"></script>
 <!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js"></script>
 <script>$('body').scrollgress();</script>
+<script>
+jQuery(document).ready(function(){
+	var accordionsMenu = $('.cd-accordion-menu');
 
+	if( accordionsMenu.length > 0 ) {
+
+		accordionsMenu.each(function(){
+			var accordion = $(this);
+			//detect change in the input[type="checkbox"] value
+			accordion.on('change', 'input[type="checkbox"]', function(){
+				var checkbox = $(this);
+				//console.log(checkbox.prop('checked'));
+				( checkbox.prop('checked') ) ? checkbox.siblings('ul').attr('style', 'display:none;').slideDown(300) : checkbox.siblings('ul').attr('style', 'display:block;').slideUp(300);
+			});
+		});
+	}
+});
+</script>
+</div>
+{% include sidebar-nav.html %}
 </body>
 </html>

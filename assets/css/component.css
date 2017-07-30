@@ -1,0 +1,112 @@
+.cd-accordion-menu {
+    padding: 0;
+    max-width: 600px;
+    list-style-type: none !important;
+}
+.cd-accordion-menu li, .cd-accordion-menu ul li {
+    padding-left: 1.25em;
+}
+.cd-accordion-menu h1 {
+    font-size: 2.25em;
+    text-align: center;
+    padding: 20px 0px 1px 0;
+    color: #3bbab2;
+}
+.cd-accordion-menu li {
+    border-bottom: 0;
+    border-top: solid 1px rgba(255, 255, 255, 0.05);
+    color: #bbb;
+    line-height: 44px;
+    text-decoration: none;
+}
+.cd-accordion-menu a, label {
+    color: #bbb;
+    text-decoration: none;
+    border-bottom: 0;
+}
+.cd-accordion-menu a {
+    display: inline-block;
+    width: 100%;
+}
+.cd-accordion-menu ul {
+    /* by default hide all sub menus */
+    display: none;
+    list-style-type: none !important;
+    margin: 0;
+    padding-left: 0em;
+}
+/*.cd-accordion-menu input[type="checkbox"] + label::before
+{
+display: none;
+position: absolute;
+opacity: 0;
+}*/
+.cd-accordion-menu input[type="checkbox"] + label
+{
+    padding: 0;
+    color: #bbb;
+    margin-left: 15px;
+}
+.cd-accordion-menu label
+{
+    position: relative;
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 0;
+    cursor: pointer;
+    font-weight: normal;
+}
+.cd-accordion-menu > li > a, .cd-accordion-menu > li > label {
+    color: #fff !important;
+}
+
+.cd-accordion-menu input[type="checkbox"] + label::after
+{
+    display: none;
+}
+.cd-accordion-menu li {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.cd-accordion-menu input[type=checkbox] {
+    /* hide native checkbox */
+    position: absolute !important;
+    opacity: 0 !important;
+}
+.cd-accordion-menu input[type=checkbox]:checked + label + ul,
+.cd-accordion-menu input[type=checkbox]:checked + label:nth-of-type(n) + ul {
+    /* use label:nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
+    /* show children when item is checked */
+    display: block;
+}
+
+.cd-accordion-menu label::before {
+    left: -15px;
+    position: absolute;
+    content: '\f105';
+    font-family: 'FontAwesome';
+    font-size: 1.25em;
+}
+/*.cd-accordion-menu input[type="checkbox"] + label::before
+{
+    left: -15px;
+    position: absolute;
+    content: '\f054';
+    font-family: 'FontAwesome';
+}*/
+.cd-accordion-menu input[type=checkbox]:checked + div + label::before {
+    /* rotate arrow */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.cd-accordion-menu.animated label, .cd-accordion-menu label::before, .cd-accordion-menu input[type=checkbox]:checked + div + label::before{
+    /* this class is used if you're using jquery to animate the accordion */
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+}
