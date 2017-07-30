@@ -43,7 +43,7 @@ google_url: https://plus.google.com/117398504371614326665
 
 # Build settings
 markdown: kramdown
-plugins:
+gems:
   - jekyll-sitemap
   - jekyll-seo-tag
 host: 0.0.0.0
