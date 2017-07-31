@@ -59,17 +59,18 @@ jQuery(document).ready(function(){
 });
 </script>
 <script>
+$(document).ready(function () { setTimeout(function(){
 iziToast.show({
-    theme: 'dark',
+    theme: 'light',
     icon: 'fa fa-info-circle',
     title: 'NOTE',
     message: "Welcome to KAMSC's new website! Please note that this site is still in development. In case you come across any issues on the website, please let us know at: <a href='mailto:kamsc.h0m3@icloud.com'>kamsc.h0m3@icloud.com</a>. Happy Browsing!",
-    position: 'center', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter
-    progressBarColor: 'rgb(255, 166, 5)',
-	backgroundColor: 'rgb(0, 0, 0)',
+    position: 'bottomRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter
+    progressBarColor: 'rgb(255, 103, 5)',
 	timeout: 20000,
 	transitionIn: 'bounceInUp'
 });
+}, 5000);});
 </script>
 </div>
 {% include sidebar-nav.html %}

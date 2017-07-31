@@ -3850,3 +3850,24 @@
 				width: 100px;
 			}
 		}
+    .s1
+    {
+        -moz-animation-delay: 0.4s;
+        -webkit-animation-delay: 0.4s;
+        -ms-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+    }
+    .s2
+    {
+        -moz-animation-delay: 1.2s;
+        -webkit-animation-delay: 1.2s;
+        -ms-animation-delay: 1.2s;
+        animation-delay: 1.2s;
+    }
+    .s3
+    {
+        -moz-animation-delay: 2.0s;
+        -webkit-animation-delay: 2.0s;
+        -ms-animation-delay: 2.0s;
+        animation-delay: 2.0s;
+    }
