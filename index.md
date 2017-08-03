@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+image: /assets/images/KAMSC Logo.png
 ---
 
 <section class="box special">
