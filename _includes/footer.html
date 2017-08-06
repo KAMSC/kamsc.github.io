@@ -3,29 +3,29 @@
 {% endif %}
 <!-- Footer -->
 <footer id="footer">
-	<ul class="icons">
-		{% if site.twitter_url %}
-			<li><a href="{{ site.twitter_url }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-		{% endif %}
-		{% if site.facebook_url %}
-			<li><a href="{{ site.facebook_url }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-		{% endif %}
-		{% if site.instagram_url %}
-			<li><a href="{{ site.instagram_url }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-		{% endif %}
-		{% if site.github_url %}
-			<li><a href="{{ site.github_url }}" class="icon fa-github"><span class="label">Github</span></a></li>
-		{% endif %}
-		{% if site.dribble_url %}
-			<li><a href="{{ site.dribble_url }}" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-		{% endif %}
-		{% if site.google_url %}
-			<li><a href="{{ site.google_url }}" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-		{% endif %}
-	</ul>
-	<ul class="copyright">
-		<li><i><strong>Copyright &copy; 2017 {{ site.title }}. All rights reserved.</strong></i></li>
-	</ul>
+    <ul class="icons">
+        {% if site.twitter_url %}
+        <li><a href="{{ site.twitter_url }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        {% endif %}
+        {% if site.facebook_url %}
+        <li><a href="{{ site.facebook_url }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        {% endif %}
+        {% if site.instagram_url %}
+        <li><a href="{{ site.instagram_url }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+        {% endif %}
+        {% if site.github_url %}
+        <li><a href="{{ site.github_url }}" class="icon fa-github"><span class="label">Github</span></a></li>
+        {% endif %}
+        {% if site.dribble_url %}
+        <li><a href="{{ site.dribble_url }}" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+        {% endif %}
+        {% if site.google_url %}
+        <li><a href="{{ site.google_url }}" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+        {% endif %}
+    </ul>
+    <ul class="copyright">
+        <li><i><strong>Copyright &copy; 2017 {{ site.title }}. All rights reserved.</strong></i></li>
+    </ul>
 </footer>
 
 </section>
@@ -36,6 +36,7 @@
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/skel.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/util.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/modernizr.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery.scrollUp.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/iziToast.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery.mousewheel.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/lightgallery.min.js"></script>
@@ -45,35 +46,40 @@
 <script>$('body').scrollgress();</script>
 <script>
 jQuery(document).ready(function(){
-	var accordionsMenu = $('.cd-accordion-menu');
-
-	if( accordionsMenu.length > 0 ) {
-
-		accordionsMenu.each(function(){
-			var accordion = $(this);
-			//detect change in the input[type="checkbox"] value
-			accordion.on('change', 'input[type="checkbox"]', function(){
-				var checkbox = $(this);
-				//console.log(checkbox.prop('checked'));
-				( checkbox.prop('checked') ) ? checkbox.siblings('ul').attr('style', 'display:none;').slideDown(300) : checkbox.siblings('ul').attr('style', 'display:block;').slideUp(300);
-			});
-		});
-	}
+    var accordionsMenu = $('.cd-accordion-menu');
+    if( accordionsMenu.length > 0 ) {
+        accordionsMenu.each(function() {
+            var accordion = $(this);
+            //detect change in the input[type="checkbox"] value
+            accordion.on('change', 'input[type="checkbox"]', function(){
+                var checkbox = $(this);
+                //console.log(checkbox.prop('checked'));
+                ( checkbox.prop('checked') ) ? checkbox.siblings('ul').attr('style', 'display:none;').slideDown(300) : checkbox.siblings('ul').attr('style', 'display:block;').slideUp(300);
+            });
+        });
+    }
+    $.scrollUp({
+        animation: 'fade',
+        activeOverlay: 'rgba(255, 255, 255, 0)',
+        scrollImg: {
+            active: true,
+            type: 'background',
+            src: 'img/top.png'
+        }
+    });
+    setTimeout(function(){
+        iziToast.show({
+            theme: 'light',
+            icon: 'fa fa-info-circle',
+            title: 'NOTE',
+            message: "Welcome to KAMSC's new website! Please note that this site is still in development. In case you come across any issues on the website, please let us know at: <a href='mailto:kamsc.h0m3@icloud.com'>kamsc.h0m3@icloud.com</a>. Happy Browsing!",
+            position: 'bottomRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter
+            progressBarColor: 'rgb(255, 103, 5)',
+            timeout: 20000,
+            transitionIn: 'bounceInUp'
+        });
+    }, 5000);
 });
-</script>
-<script>
-$(document).ready(function () { setTimeout(function(){
-iziToast.show({
-    theme: 'light',
-    icon: 'fa fa-info-circle',
-    title: 'NOTE',
-    message: "Welcome to KAMSC's new website! Please note that this site is still in development. In case you come across any issues on the website, please let us know at: <a href='mailto:kamsc.h0m3@icloud.com'>kamsc.h0m3@icloud.com</a>. Happy Browsing!",
-    position: 'bottomRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter
-    progressBarColor: 'rgb(255, 103, 5)',
-	timeout: 20000,
-	transitionIn: 'bounceInUp'
-});
-}, 5000);});
 </script>
 </div>
 {% include sidebar-nav.html %}
