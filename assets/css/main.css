@@ -3871,3 +3871,16 @@
         -ms-animation-delay: 2.0s;
         animation-delay: 2.0s;
     }
+    #scrollUp {
+        background-image: url("images/top.png");
+        background-size: contain;
+        bottom: 20px;
+        right: 20px;
+        width: 40px;    /* Width of image */
+        height: 40px;   /* Height of image */
+        border: none;
+        -webkit-box-shadow:0 0 20px #000;
+        -moz-box-shadow: 0 0 20px #000;
+        box-shadow:0 0 20px #000;
+        border-radius: 50%;
+    }
